@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="300.0" prefWidth="230.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jasmin.RootLayoutController">
+   <children>
+      <Button layoutX="23.0" layoutY="75.0" mnemonicParsing="false" onAction="#musikPlayerClicked" prefHeight="25.0" prefWidth="185.0" text="Musik Player" />
+      <Button layoutX="23.0" layoutY="115.0" mnemonicParsing="false" onAction="#videoPlayerClicked" prefHeight="25.0" prefWidth="185.0" text="Video Player" />
+      <Button layoutX="23.0" layoutY="155.0" mnemonicParsing="false" onAction="#rechnerClicked" prefHeight="25.0" prefWidth="185.0" text="Rechner" />
+   </children>
+</AnchorPane>
